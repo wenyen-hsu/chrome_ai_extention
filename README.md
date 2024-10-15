@@ -6,13 +6,11 @@ Voice AI Agent with Gemini is a Chrome extension that allows you to interact wit
 
 ## Installation
 
-1. Visit the GitHub repository at [Your GitHub Repository URL].
-2. Click on the "Code" button and select "Download ZIP" to download the extension package.
-3. Unzip the downloaded file to a location on your computer.
-4. Open Google Chrome and navigate to `chrome://extensions/`.
-5. Enable "Developer mode" by toggling the switch in the top right corner.
-6. Click on "Load unpacked" and select the unzipped extension folder.
-7. The Voice AI Agent icon should now appear in your Chrome toolbar.
+1. git clone https://github.com/wenyen-hsu/chrome_ai_extention.git
+2. Open Google Chrome and navigate to `chrome://extensions/`.
+3. Enable "Developer mode" by toggling the switch in the top right corner.
+4. Click on "Load unpacked" and select the unzipped extension folder.
+5. The Voice AI Agent icon should now appear in your Chrome toolbar.
 
 ## Setting Up
 
