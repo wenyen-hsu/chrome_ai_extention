@@ -37,7 +37,7 @@ async function handleAIRequest(request, sendResponse) {
     const result = await chrome.storage.sync.get(['gemini_api_key']);
     if (result.gemini_api_key) {
       const apiKey = result.gemini_api_key;
-      console.log("API key:", apiKey);
+      //console.log("API key:", apiKey);
 
       const generationConfig = {
         temperature: 0.7
