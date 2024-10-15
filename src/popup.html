@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice AI Agent with Gemini</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>Voice AI Agent with Gemini</h1>
+  </header>
+  <main>
+    <section class="api-key-section">
+      <input type="text" id="apiKey" placeholder="Enter your API key">
+      <button id="saveApiKey">Save API Key</button>
+    </section>
+    <section class="voice-input-section">
+      <button id="startListening">Start Listening</button>
+      <textarea id="recognizedText" readonly placeholder="Recognized text will appear here..."></textarea>
+    </section>
+    <section class="analysis-section">
+      <button id="analyzeText">Analyze Text</button>
+      <div id="result" class="result-box"></div>
+    </section>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
